@@ -9,24 +9,23 @@ export default function PrivateLayout() {
   return (
     <>
       <div id="layout-wrapper">
-        <NavBar/>
-        <Sidebar/>
+        <NavBar />
+        <Sidebar />
 
         <div className="main-content">
           <div className="page-content">
             <Outlet />
+            <Routes>
+              {
+                PrivateRouter.map((item) => <Route path={item.path} key={'router-' + item.name}
+                  element={<item.component />} />)
+              }
+            </Routes>
           </div>
 
-          <Footer/>
+          <Footer />
         </div>
       </div>
-
-      <Routes>
-        {
-          PrivateRouter.map((item) => <Route path={item.path} key={'router-' + item.name}
-            element={<item.component />} />)
-        }
-      </Routes>
     </>
   );
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from "../../assets/images/logo.svg";
 
 export default function NavBar() {
     return (
@@ -9,22 +10,23 @@ export default function NavBar() {
                     <div className="navbar-brand-box">
                         <a href="index.html" className="logo logo-dark">
                             <span className="logo-sm">
-                                <img src={"./assets/images/logo.svg"} alt height={17} />
+                                <img src={logo} alt="logo" height={17} />
                             </span>
                             <span className="logo-lg">
-                                {/* <img src="assets/images/logo.svg" alt height={41} /> */}
+                                <img src={logo} alt="logo" height={41} />
                             </span>
                         </a>
                         <a href="index.html" className="logo logo-light">
                             <span className="logo-sm">
-                                {/* <img src="assets/images/logo.svg" alt height={17} /> */}
+                                <img src={logo} alt="logo" height={17} />
                             </span>
                             <span className="logo-lg">
-                                {/* <img src="assets/images/logo.svg" alt height={41} /> */}
+                                <img src={logo} alt="logo" height={41} />
                             </span>
                         </a>
                     </div>
-                    <button type="button" className="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
+                    <button type="button" className="btn btn-sm px-3 font-size-16 header-item" 
+                        id="vertical-menu-btn">
                         <i className="fa fa-fw fa-bars" />
                     </button>
                     {/* App Search*/}
