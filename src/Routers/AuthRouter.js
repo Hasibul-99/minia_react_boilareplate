@@ -1,3 +1,4 @@
+import ForgetPassword from "../Pages/Auth/ForgetPassword";
 import Login from "../Pages/Auth/Login";
 import Register from "../Pages/Auth/Register";
 import ErrorPage404 from "../Pages/ErrorPages/404";
@@ -17,9 +18,9 @@ const AuthRouter = [
         layout: "/auth"
     },
     {
-        path: "register",
-        name: "Register",
-        component: Register,
+        path: "forget-password",
+        name: "Forget Password",
+        component: ForgetPassword,
         layout: "/auth"
     },
     {
