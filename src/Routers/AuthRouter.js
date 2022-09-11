@@ -1,6 +1,6 @@
 import ForgetPassword from "../Pages/Auth/ForgetPassword";
 import Login from "../Pages/Auth/Login";
-import Register from "../Pages/Auth/Register";
+// import Register from "../Pages/Auth/Register";
 import ErrorPage404 from "../Pages/ErrorPages/404";
 
 

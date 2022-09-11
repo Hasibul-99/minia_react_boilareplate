@@ -21,8 +21,6 @@ export default function Login() {
             </div>
             <div class="flex-shrink-0">
               <div class="">
-                {/* <a href="forgot-password.html" class="text-muted">Forgot
-                  password?</a> */}
                   <Link to="/auth/forget-password" class="text-muted">Forgot password?</Link>
               </div>
             </div>
@@ -37,14 +35,15 @@ export default function Login() {
         </div>
         <div class="row mb-4">
           {/* <div class="col">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox"
-                      id="remember-check">
-                      <label class="form-check-label" for="remember-check">
-                        Remember me
-                      </label>
-                  </div>
-                </div> */}
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox"
+                    id="remember-check">
+                    <label class="form-check-label" for="remember-check">
+                      Remember me
+                    </label>
+                </div>
+              </div> 
+          */}
 
         </div>
         <div class="mb-3">
